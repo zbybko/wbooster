@@ -46,7 +46,7 @@ $APPLICATION->SetTitle("Статьи");
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"LIST_FIELD_CODE" => array(
-			0 => "",
+			0 => "SHOW_COUNTER",
 			1 => "",
 		),
 		"LIST_PROPERTY_CODE" => array(
@@ -80,7 +80,7 @@ $APPLICATION->SetTitle("Статьи");
 		"USE_CATEGORIES" => "N",
 		"USE_FILTER" => "N",
 		"USE_PERMISSIONS" => "N",
-		"USE_RATING" => "N",
+		"USE_RATING" => "Y",
 		"USE_REVIEW" => "N",
 		"USE_RSS" => "N",
 		"USE_SEARCH" => "N",
@@ -111,6 +111,13 @@ $APPLICATION->SetTitle("Статьи");
 		"COLOR_OLD" => "C0C0C0",
 		"TAGS_CLOUD_WIDTH" => "100%",
 		"MEDIA_PROPERTY" => "",
+		"MESSAGES_PER_PAGE" => "10",
+		"USE_CAPTCHA" => "Y",
+		"REVIEW_AJAX_POST" => "Y",
+		"PATH_TO_SMILE" => "/bitrix/images/forum/smile/",
+		"FORUM_ID" => "",
+		"URL_TEMPLATES_READ" => "",
+		"SHOW_LINK_TO_FORUM" => "Y",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "category/#SECTION_CODE#",
