@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="718ef8fc-d566-4684-b3e5-a5bcfa49ec38" name="Changes" comment="Весь проект">
+      <change afterPath="$PROJECT_DIR$/.access.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/articles/.section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/articles/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/.styles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/css/element/articles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/js/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/libs/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/libs/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/libs/fancybox/fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/libs/fancybox/fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/libs/jquery/jquery-3.7.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/.description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/images/left_menu_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/lang/en/.description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/lang/ru/.description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/catalog.filter/.default/lang/de/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/catalog.filter/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/catalog.filter/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/catalog.filter/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/component_epilog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/font_quote.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/noavatar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/add_button.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/cut.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/delete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_bold.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_code.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_color.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_image.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_italic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_link.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_list.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_quote.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_translit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/font_underline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/image.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/toolbarbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/images/postform/video.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/lang/de/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/ru/script.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/script.map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/forum.topic.reviews/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/images/empty.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/images/over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/images/voted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/lang/de/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.index/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/lang/de/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/list/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/photo/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/rss.out/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/rss.out/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/rss.out/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.form/flat/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.form/flat/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.form/flat/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.page/.default/chain_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.page/.default/lang/de/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.page/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.page/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.page/.default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.page/.default/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/search.page/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-dark/feed-icon-10x10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-dark/feed-icon-12x12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-dark/feed-icon-16x16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-dark/feed-icon-24x24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-dark/feed-icon-32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-light/feed-icon-10x10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-light/feed-icon-12x12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-light/feed-icon-16x16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-light/feed-icon-24x24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/gif-light/feed-icon-32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-black/feed-icon-10x10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-black/feed-icon-12x12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-black/feed-icon-16x16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-black/feed-icon-24x24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-black/feed-icon-32x32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-white/feed-icon-10x10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-white/feed-icon-12x12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-white/feed-icon-16x16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-white/feed-icon-24x24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/jpg-white/feed-icon-32x32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/png/feed-icon-10x10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/png/feed-icon-12x12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/png/feed-icon-14x14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/png/feed-icon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/png/feed-icon-24x24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/images/png/feed-icon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/lang/ru/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/lang/ru/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/lang/ru/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/lang/ru/section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/template_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urlrewrite.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="merge" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2jYa99hTWssjSkruS86nsOxmywQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/opt/homebrew/var/www/upload&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/upload" />
+      <recent name="$PROJECT_DIR$/local/templates" />
+      <recent name="$PROJECT_DIR$/local/templates/exam1/components/bitrix" />
+      <recent name="$PROJECT_DIR$/upload/iblock" />
+      <recent name="$PROJECT_DIR$/company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/local/templates/exam1/components/bitrix/menu/top" />
+      <recent name="$PROJECT_DIR$/local/templates/exam1/components/bitrix/menu/top/lang/ru" />
+      <recent name="$PROJECT_DIR$/local/templates/exam1/components/bitrix" />
+      <recent name="$PROJECT_DIR$/local/templates/exam1" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="718ef8fc-d566-4684-b3e5-a5bcfa49ec38" name="Changes" comment="" />
+      <created>1721566309895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721566309895</updated>
+      <workItem from="1721566310980" duration="7655000" />
+      <workItem from="1721585336942" duration="390000" />
+      <workItem from="1721585742763" duration="33774000" />
+      <workItem from="1721751636430" duration="6411000" />
+    </task>
+    <task id="LOCAL-00001" summary="[ex1-4] Создать шаблон сайта">
+      <option name="closed" value="true" />
+      <created>1721585296173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721585296173</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Восстановление файлов в индексе">
+      <option name="closed" value="true" />
+      <created>1721586190490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721586190490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Восстановление файлов в индексе">
+      <option name="closed" value="true" />
+      <created>1721586339784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721586339784</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[ex1-6] Внедрить меню сайта: левое и верхнее многоуровневое.">
+      <option name="closed" value="true" />
+      <created>1721633521094</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721633521094</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[ex1-14] Раздел сайта с динамической информацией: отзывы">
+      <option name="closed" value="true" />
+      <created>1721659827398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721659827398</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" [ex1-16] Поиск динамической информации на сайте: отзывы">
+      <option name="closed" value="true" />
+      <created>1721720596771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721720596771</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[ex1-20] Реализовать авторизацию: типовые сценарии, соц.сети и capcha">
+      <option name="closed" value="true" />
+      <created>1721728789936</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721728789936</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[ex1-20] Реализовать авторизацию: типовые сценарии, соц.сети и capcha">
+      <option name="closed" value="true" />
+      <created>1721729008722</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721729008722</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Full-Project end">
+      <option name="closed" value="true" />
+      <created>1721755184886</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721755184886</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Весь проект">
+      <option name="closed" value="true" />
+      <created>1721755282778</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721755282778</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="merge" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[ex1-4] Создать шаблон сайта" />
+    <MESSAGE value="Восстановление файлов в индексе" />
+    <MESSAGE value="[ex1-6] Внедрить меню сайта: левое и верхнее многоуровневое." />
+    <MESSAGE value="[ex1-14] Раздел сайта с динамической информацией: отзывы" />
+    <MESSAGE value=" [ex1-16] Поиск динамической информации на сайте: отзывы" />
+    <MESSAGE value="[ex1-20] Реализовать авторизацию: типовые сценарии, соц.сети и capcha" />
+    <MESSAGE value="Full-Project end" />
+    <MESSAGE value="Весь проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="Весь проект" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
