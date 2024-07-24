@@ -60,15 +60,7 @@ $this->setFrameMode(true);
             <div class="articles__info-item">
               <i class="fa-regular fa-star"></i>
               <span>
-                  <?
-                  $entityTypeId = 'IBLOCK_ELEMENT';
-                  $entityId = $arItem['ID'];
-                  $arVoteResult = CRatings::GetRatingVoteResult($entityTypeId, $entityId);
-                  if(!empty($arVoteResult))
-                    echo '<pre>'.print_r($arVoteResult, true).'</pre>';
-                  else
-                    echo "Форум: за выбранную тему ещё не голосовали";
-                  ?>
+
               </span>
             </div>
           </div>

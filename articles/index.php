@@ -22,8 +22,8 @@ $APPLICATION->SetTitle("Статьи");
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "N",
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
 		"DETAIL_FIELD_CODE" => array(
-			0 => "",
-			1 => "",
+			0 => "SHOW_COUNTER",
+			1 => "ACTIVE_FROM",
 		),
 		"DETAIL_PAGER_SHOW_ALL" => "Y",
 		"DETAIL_PAGER_TEMPLATE" => "",

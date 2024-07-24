@@ -9,6 +9,7 @@
   overflow: hidden;
   border-radius: 5px;
   border: 1px solid var(--bs-gray-500);
+  height: 100%;
 }
 
 .articles__top {
