@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="718ef8fc-d566-4684-b3e5-a5bcfa49ec38" name="Changes" comment="Настройка компонента articles, нужно разобраться с выводом рейтинга">
-      <change afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/img/1400x300.png" afterDir="false" />
+    <list default="true" id="718ef8fc-d566-4684-b3e5-a5bcfa49ec38" name="Changes" comment="Детальная">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/articles/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/articles/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/assets/css/element/articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/css/element/articles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/assets/libs/jquery/jquery-3.7.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/assets/libs/jquery/jquery-3.7.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/.description.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/top/.description.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/images/left_menu_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/top/images/left_menu_bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/lang/en/.description.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/top/lang/en/.description.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/lang/ru/.description.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/top/lang/ru/.description.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/top/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/menu/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/top/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/.default/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/iblock.vote/.default/lang/ru/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/iblock.vote/.default/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/iblock.vote/vote_in_list/lang/ru/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/iblock.vote/vote_in_list/result_modifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote/ajax/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/iblock.vote/vote_in_list/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.detail/.default/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/news.list/.default/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/wbooster/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/wbooster/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "sand",
-    "last_opened_file_path": "/opt/homebrew/var/www/local/templates/wbooster/assets/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sand&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/opt/homebrew/var/www/local/templates/wbooster/assets/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/local/templates/wbooster/assets/img" />
@@ -67,11 +78,11 @@
       <recent name="$PROJECT_DIR$/local/templates/exam1/components/bitrix" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/local/templates/wbooster/components/bitrix" />
+      <recent name="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu/top" />
+      <recent name="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/menu" />
       <recent name="$PROJECT_DIR$/local/templates/wbooster/components/bitrix/news/articles/bitrix/iblock.vote" />
       <recent name="$PROJECT_DIR$/local/templates/exam1/components/bitrix/menu/top" />
-      <recent name="$PROJECT_DIR$/local/templates/exam1/components/bitrix/menu/top/lang/ru" />
-      <recent name="$PROJECT_DIR$/local/templates/exam1/components/bitrix" />
-      <recent name="$PROJECT_DIR$/local/templates/exam1" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -95,7 +106,8 @@
       <workItem from="1721585742763" duration="33774000" />
       <workItem from="1721751636430" duration="13917000" />
       <workItem from="1721808908523" duration="1295000" />
-      <workItem from="1721857757294" duration="1657000" />
+      <workItem from="1721857757294" duration="4191000" />
+      <workItem from="1722029144700" duration="3978000" />
     </task>
     <task id="LOCAL-00001" summary="[ex1-4] Создать шаблон сайта">
       <option name="closed" value="true" />
@@ -193,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721773761516</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Детальная">
+      <option name="closed" value="true" />
+      <created>1721859465005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721859465005</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +254,8 @@
     <MESSAGE value="Весь проект" />
     <MESSAGE value="Init" />
     <MESSAGE value="Настройка компонента articles, нужно разобраться с выводом рейтинга" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настройка компонента articles, нужно разобраться с выводом рейтинга" />
+    <MESSAGE value="Детальная" />
+    <option name="LAST_COMMIT_MESSAGE" value="Детальная" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

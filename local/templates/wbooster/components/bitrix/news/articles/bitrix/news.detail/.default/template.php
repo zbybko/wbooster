@@ -22,8 +22,6 @@ if (isset($arResult["DETAIL_PICTURE"]["ID"])) {
 } else {
   $src = SITE_TEMPLATE_PATH . '/assets/img/1400x300.png';
 }
-
-\Bitrix\Main\Diag\Debug::writeToFile($arResult, 'detail', '1.txt');
 ?>
 <div class="articles-detail">
 

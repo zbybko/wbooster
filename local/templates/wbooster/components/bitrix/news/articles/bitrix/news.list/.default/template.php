@@ -10,6 +10,7 @@
 /** @var string $templateFolder */
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
+
 $this->setFrameMode(true);
 ?>
 
@@ -60,7 +61,22 @@ $this->setFrameMode(true);
             <div class="articles__info-item">
               <i class="fa-regular fa-star"></i>
               <span>
-
+                <?
+                $APPLICATION->IncludeComponent(
+                  "bitrix:iblock.vote",
+                  "vote_in_list",
+                  [
+                    "IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
+                    "IBLOCK_ID" => $arParams["IBLOCK_ID"],
+                    "ELEMENT_ID" => $arItem["ID"],
+                    "MAX_VOTE" => $arParams["MAX_VOTE"],
+                    "VOTE_NAMES" => $arParams["VOTE_NAMES"],
+                    "CACHE_TYPE" => $arParams["CACHE_TYPE"],
+                    "CACHE_TIME" => $arParams["CACHE_TIME"],
+                  ],
+                  $component,
+                  ['HIDE_ICONS' => 'Y']
+                );?>
               </span>
             </div>
           </div>
