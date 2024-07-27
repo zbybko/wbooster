@@ -38,7 +38,7 @@ if (isset($arResult["DETAIL_PICTURE"]["ID"])) {
 
     <div class="articles__info-item">
       <i class="fa-regular fa-clock"></i>
-      <span>Время на прочтение: <span class="time_read"></span></span>
+      <span>Время на прочтение: <span data-inner="time"></span></span>
     </div>
   </div>
 

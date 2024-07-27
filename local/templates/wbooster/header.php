@@ -29,7 +29,7 @@ $CurUri = $APPLICATION->GetCurUri();
   Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/assets/css/element/articles.css');
 
   Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/assets/css/style.css');
-  Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets//js/myscripts.js');
+  Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets//js/readTime.js');
 
 
   $APPLICATION->ShowHead();

@@ -18,7 +18,7 @@ $currentDir = $APPLICATION->GetCurDir();
 ?>
 
 <div class="articles__grid row">
-  <? foreach ($arResult["ITEMS"] as $arItem):
+  <? foreach ($arResult["ITEMS"] as $index => $arItem):
     if (isset($arItem["PREVIEW_PICTURE"]["ID"])) {
       $arImgTmp = CFile::ResizeImageGet(
         $arItem["PREVIEW_PICTURE"]["ID"],
@@ -49,7 +49,6 @@ $currentDir = $APPLICATION->GetCurDir();
       <div class="articles__item">
         <div class="articles__top">
           <a href="<?= $link ?>" class="articles__category">
-
             <span
               class="badge text-bg-primary rounded-pill"><?= $arParentSection["NAME"] ?>
             </span>
@@ -70,7 +69,7 @@ $currentDir = $APPLICATION->GetCurDir();
 
             <div class="articles__info-item">
               <i class="fa-regular fa-clock"></i>
-              <span class="time_read"></span>
+              <span data-timeread="<?= $index ?>"></span>
             </div>
 
             <div class="articles__info-item">
@@ -102,7 +101,7 @@ $currentDir = $APPLICATION->GetCurDir();
 
           <div class="articles__btn">
             <a href="<? echo $arItem["DETAIL_PAGE_URL"] ?>"
-               class="btn btn-primary" data-btn="detail">Подробнее
+               class="btn btn-primary" data-btn="to_detail">Подробнее
             </a>
           </div>
         </div>
@@ -113,3 +112,51 @@ $currentDir = $APPLICATION->GetCurDir();
     <br/><?= $arResult["NAV_STRING"] ?>
   <? endif; ?>
 </div>
+
+<script>
+  $(document).ready(function () {
+    const btnToDetail = $('[data-btn="to_detail"]');
+    const timeReadBlocks = $('[data-timeread]');
+
+    console.log(timeReadBlocks);
+
+    if (btnToDetail.length === timeReadBlocks.length) {
+      const arrLenght = btnToDetail.length;
+
+      for (let i = 0; i < arrLenght; i++) {
+        const pathToDetail = $(btnToDetail[i]).attr('href');
+        const currentInnerBlock = timeReadBlocks[i];
+
+        $.ajax({
+          url: pathToDetail,
+          method: 'GET',
+          success: function (data) {
+
+            // Создаем временный элемент для хранения данных
+            const tempElement = document.createElement('div');
+            tempElement.innerHTML = data;
+
+            // Находим нужные элементы в полученном HTML
+            const detailElement = tempElement.querySelector('.articles-detail');
+            console.log(currentInnerBlock);
+            // Применяем функцию readtime к найденным элементам
+            setTimeout(() => {
+              $(detailElement).readtime({
+                wpm: 160,
+                format: '#',
+                images: 12,
+                readInnerBlock: currentInnerBlock
+              });
+            }, 200);
+
+          },
+          error: function (xhr, status, error) {
+            console.error('Ошибка AJAX-запроса:', error);
+          }
+        });
+      }
+    } else {
+      console.log("Неодинаковое количество элементов")
+    }
+  });
+</script>
