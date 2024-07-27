@@ -12,6 +12,9 @@
 /** @var CBitrixComponent $component */
 
 $this->setFrameMode(true);
+
+$currentDir = $APPLICATION->GetCurDir();
+
 ?>
 
 <div class="articles__grid row">
@@ -27,6 +30,16 @@ $this->setFrameMode(true);
     } else {
       $src = SITE_TEMPLATE_PATH . '/assets/img/500x300.png';
     }
+    \Bitrix\Main\Diag\Debug::writeToFile($currentDir, '', '1.txt');
+    $arParentSection = CIBlockSection::GetByID($arItem["IBLOCK_SECTION_ID"])->Fetch();
+    if ($currentDir !== '/articles/') {
+      // Если пользователь находится в разделе
+      $link = $arParentSection["CODE"];
+    } else {
+      // Если пользователь находится в корне /articles/
+      $link = $arParentSection["SECTION_PAGE_URL"] . $arParentSection["CODE"];
+    }
+
     ?>
     <?
     $this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
@@ -35,10 +48,12 @@ $this->setFrameMode(true);
     <articles class="articles col-12 col-md-6 col-lg-4 col-xl-3" id="<?= $this->GetEditAreaId($arItem['ID']); ?>">
       <div class="articles__item">
         <div class="articles__top">
-          <div class="articles__category">
-            <span class="badge text-bg-primary rounded-pill">Primary</span>
-            <span class="badge text-bg-primary rounded-pill">Primary</span>
-          </div>
+          <a href="<?= $link ?>" class="articles__category">
+
+            <span
+              class="badge text-bg-primary rounded-pill"><?= $arParentSection["NAME"] ?>
+            </span>
+          </a>
           <div class="articles__images">
             <div class="images__thumb">
               <img src="<?= $src ?>" alt="">
@@ -55,7 +70,7 @@ $this->setFrameMode(true);
 
             <div class="articles__info-item">
               <i class="fa-regular fa-clock"></i>
-              <span>10 мин</span>
+              <span class="time_read"></span>
             </div>
 
             <div class="articles__info-item">
@@ -76,7 +91,7 @@ $this->setFrameMode(true);
                   ],
                   $component,
                   ['HIDE_ICONS' => 'Y']
-                );?>
+                ); ?>
               </span>
             </div>
           </div>
@@ -85,8 +100,11 @@ $this->setFrameMode(true);
             <a href="<? echo $arItem["DETAIL_PAGE_URL"] ?>"><? echo $arItem["NAME"] ?></a>
           </div>
 
-          <div class="articles__btn"><a href="<? echo $arItem["DETAIL_PAGE_URL"] ?>"
-                                        class="btn btn-primary">Подробнее</a></div>
+          <div class="articles__btn">
+            <a href="<? echo $arItem["DETAIL_PAGE_URL"] ?>"
+               class="btn btn-primary" data-btn="detail">Подробнее
+            </a>
+          </div>
         </div>
       </div>
     </articles>

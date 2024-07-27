@@ -115,8 +115,9 @@
 /* category*/
 
 .category__list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
 
   margin: 20px 0px;
 }
