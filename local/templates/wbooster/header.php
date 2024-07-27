@@ -63,7 +63,7 @@ $CurUri = $APPLICATION->GetCurUri();
   </header>
 </div>
 
-<main>
+<main class="c-page">
   <div class="container">
 
     <div class="page-top mb-4">

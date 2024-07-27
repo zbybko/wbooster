@@ -21,9 +21,8 @@ if($arParams["DISPLAY_AS_RATING"] == "vote_avg")
 		$DISPLAY_VALUE = 0;
 }
 else
-	$DISPLAY_VALUE = $arResult["PROPERTIES"]["rating"]["VALUE"];
+	$DISPLAY_VALUE = round($arResult["PROPERTIES"]["rating"]["VALUE"], 1);
 
-\Bitrix\Main\Diag\Debug::writeToFile($arResult, 'raiting', '1.txt');
 ?>
 <script>
 if(!window.voteScript) window.voteScript =
@@ -117,7 +116,7 @@ if(!window.voteScript) window.voteScript =
 ?>
 
 
-<span id="wait_vote_<?echo $arResult["ID"]?>"><?= $arResult["PROPERTIES"]["vote_count"]["VALUE"]?> <?= $DISPLAY_VALUE ?></span>
+<span id="wait_vote_<?echo $arResult["ID"]?>"><?= $DISPLAY_VALUE ?>/5</span>
 <?
 //12*
 //Продолжение экскурсии в файле component.php (конец)
